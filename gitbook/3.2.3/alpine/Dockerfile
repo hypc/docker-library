@@ -1,4 +1,4 @@
-FROM node:6-alpine
+FROM node:8-alpine
 
 ARG VERSION=3.2.3
 
