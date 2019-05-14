@@ -2,7 +2,7 @@ FROM node:10.15
 
 MAINTAINER hypc <h_yp00@163.com>
 
-ENV CNPMJS_VERSION=3.0.0-alpha.15
+ENV CNPMJS_VERSION=2.19.4
 ENV CNPM_DIR="/var/app/cnpmjs.org"
 
 RUN mkdir -p ${CNPM_DIR}
